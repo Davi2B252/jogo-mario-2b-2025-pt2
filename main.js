@@ -64,8 +64,8 @@ const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
         updateScore();
         pipe.style.left = '';
     }
-    }
 },10);
+
 document.addEventListener("keydown", jump);
 
 const restartGame = () => {
